@@ -79,3 +79,9 @@ footer {
     border-top: 5px double rgb(0, 0, 0);
     border-bottom: 5px double rgb(0, 0, 0);
 }
+
+.login{
+    display: block;
+    width: 480px;
+    height: 270px;
+}
