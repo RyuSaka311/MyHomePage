@@ -74,14 +74,16 @@ footer {
 }
 
 .content-header {
-    color: #51f964;
+    color: rgb(238, 158, 238);
     text-align: center;
     border-top: 5px double rgb(0, 0, 0);
     border-bottom: 5px double rgb(0, 0, 0);
 }
 
-.login{
-    display: block;
-    width: 480px;
-    height: 270px;
+.unity-img {
+    display:block;
+    text-align: left;
+    border: 4px solid #51f964;
+    width: 576px;
+    height: 324px;
 }
