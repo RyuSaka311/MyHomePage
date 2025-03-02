@@ -52,9 +52,10 @@ div {
 }
 
 h2 {
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(184, 184, 184);
     color: #ffffff;
-    
+    border-radius: 3px;
+    border-top:solid 4px #686868;
     left: 100px;
 }
 
