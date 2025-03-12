@@ -5,15 +5,14 @@ header {
     background-color: #51daf9;
     margin: 0;
     padding: 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     text-align: center;
 
     .title {
         text-align: 0;
         color: white;
-        margin: 0;
+        margin: 5px;
         padding: 0;
+        font-size: 50px;
     }
 
     .tab {
@@ -105,6 +104,6 @@ footer {
     margin: 0;
     padding: 0;
     border: 4px solid #5aeef9;
-    width: 640px;
-    height: 360px;
+    width: 704px;
+    height: 396px;
 }
