@@ -1,109 +1,54 @@
-header {
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    background-color: #51daf9;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-    .title {
-        text-align: 0;
-        color: white;
-        margin: 5px;
-        padding: 0;
-        font-size: 50px;
-    }
-
-    .tab {
-        padding: 0;
-        margin: 0;
-        padding-inline: 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    .txt {
-        font-family: arial;
-        color: white;
-    }
-
-    .txt:hover {
-        color: rgb(9, 9, 9);
-    }
-
-    .element {
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-    }
-
-    a:link {
-        color: whitesmoke;
-    }
-    
-    a:hover {
-        color: rgb(61, 61, 61);
-    }
-}
-
 body {
     background: white;
-}
-
-div {
-    width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 65px;
-}
-
-h2 {
-    background-color: rgb(184, 184, 184);
-    color: #ffffff;
-    border-radius: 3px;
-    border-top:solid 4px #686868;
-    left: 100px;
-}
-
-a:link {
-    color: rgb(0, 0, 0);
-}
-
-a:link:hover {
-    color: #51f964;
-}
-
-footer {
-    height: 80px;
-    width: 60%;
-    margin-left: 20%;
-    background-color: #79b7b5;
-    border-top: 2px solid rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
-
-    a:link {
-        color: whitesmoke;
-    }
-    
-    a:link:hover {
-        color: rgb(93, 93, 93);
-    }
-}
-
-.content-header {
-    color: #f78df5;
-    text-align: center;
-    border-top: 5px double rgb(0, 0, 0);
-    border-bottom: 5px double rgb(0, 0, 0);
-}
-
-.unity-img {
-    display:block;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
     margin: 0;
     padding: 0;
-    border: 4px solid #5aeef9;
-    width: 704px;
-    height: 396px;
+
+    .header {
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #ffffff;
+        background-color: #51daf9;
+        font-size: 56px;
+    }
+
+    .main {
+        width: 1200px;
+        margin-top: 80px;
+        margin-left: 350px;
+        background-color: #ffffff;
+    }
+
+    .unity-img {
+        display: block;
+        border: 2px solid #5aeef9;
+        width: 960px;
+        height: 540px;
+    }
+
+    .left-menu {
+        position: fixed;
+        margin-top: 80px;
+        padding-left: 20px;
+        width: 330px;
+        height: 1080px;
+        background-color: #252525;
+
+        .title {
+            color: white;
+        }
+
+        .agenda {
+            color: white;
+        }
+
+        .content {
+            color: white;
+        }
+    }
 }
