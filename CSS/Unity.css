@@ -13,7 +13,8 @@ body {
         padding: 0;
         text-align: center;
         color: #ffffff;
-        background-color: #4ddeff92;
+        background-color: #37daff92;
+        text-shadow: 2px 2px 0 rgba(70, 70, 70, 0.5),3px 3px 0 rgba(134, 134, 134, 0.5);
         font-size: 46px;
     }
 
@@ -37,7 +38,7 @@ body {
         padding-left: 20px;
         width: 330px;
         height: 1080px;
-        background: linear-gradient(rgb(183, 183, 183), black);
+        background: linear-gradient(rgb(183, 183, 183), rgb(132, 25, 255));
 
         .title {
             color: white;
