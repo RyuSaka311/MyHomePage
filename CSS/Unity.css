@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -8,18 +8,18 @@ body {
     .header {
         position: fixed;
         width: 100%;
-        height: 80px;
+        height: 70px;
         margin: 0;
         padding: 0;
         text-align: center;
         color: #ffffff;
-        background-color: #51daf9;
-        font-size: 56px;
+        background-color: #4ddeff92;
+        font-size: 46px;
     }
 
     .main {
         width: 1200px;
-        margin-top: 80px;
+        margin-top: 70px;
         margin-left: 350px;
         background-color: #ffffff;
     }
@@ -33,11 +33,11 @@ body {
 
     .left-menu {
         position: fixed;
-        margin-top: 80px;
+        margin-top: 70px;
         padding-left: 20px;
         width: 330px;
         height: 1080px;
-        background-color: #252525;
+        background: linear-gradient(rgb(183, 183, 183), black);
 
         .title {
             color: white;
@@ -51,4 +51,14 @@ body {
             color: white;
         }
     }
+}
+
+h1 {
+    color: rgb(117, 254, 126);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3), 3px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: rgb(243, 178, 255);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }

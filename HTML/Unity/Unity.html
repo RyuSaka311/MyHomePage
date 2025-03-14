@@ -2,14 +2,14 @@
 <html lang="ja">
 
 <head>
-    <meta charset="utf-8" content="GPTに頼む">
+    <meta charset="utf-8" content="初心者でも安心！Unityでゲームを作るための基本知識と実践的なチュートリアルをお届け。">
     <link rel="stylesheet" href="../../CSS/Unity.css">
     <title>Unity入門</title>
 </head>
 
 <body>
     <div class="header">
-        Unity入門編
+        Unity初心者向けチュートリアル：簡単なプロジェクトで学ぼう!
     </div>
 
     <div class="left-menu">
@@ -17,54 +17,90 @@
         <ul>
             <li class="agenda">事前準備</li>
             <ul>
-                <li class="content">①Visual Studioのインストール。</li>
-                <li class="content">②Unity Hubのインストール。</li>
+                <li class="content"><a class="menu-url" href="https://visualstudio.microsoft.com/ja/downloads/"
+                        target="_blank">①Visual
+                        Studioのインストール</a></li>
+                <li class="content"><a class="menu-url" href="https://unity.com/ja/download" target="_blank">②Unity
+                        Hubのインストール</a></li>
             </ul>
-            <li class="agenda">用語</li>
+
+            <br>
+
+            <li class="agenda">用語一覧</li>
             <ul>
-                <li class="content">オブジェクト</li>
-                <li class="content">アタッチ</li>
-                <li class="content">コンポーネント</li>
+                <li class="content"><a href="https://docs.unity3d.com/ja/2019.4/Manual/class-GameObject.html"
+                        target="_blank">ゲームオブジェクト</a></li>
+                <li class="content"><a href="https://docs.unity3d.com/ja/2019.4/Manual/UnityAnalyticsAttachSDK.html"
+                        target="_blank">アタッチ</a></li>
+                <li class="content"><a href="https://docs.unity3d.com/ja/2019.4/Manual/UsingComponents.html"
+                        target="_blank">コンポーネント</a></li>
+                <li class="content"><a href="https://docs.unity3d.com/ja/2022.3/Manual/CreatingAndUsingScripts.html"
+                        target="_blank">スクリプト</a></li>
             </ul>
-        </ul>
+
+            </br>
+
+            <li class="agenda">シェア</li>
+            <ul>
+                <li><a href="https://twitter.com/share?url=https:// ここにURL /" target="_blank">Twitterでシェア</a></li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.example.com/fantasy-adventure"
+                        target="_blank">Facebookでシェア</a></li>
+            </ul>
+
+            </br>
+
+            <li class="agenda">お問い合わせ</li>
+            <ul>
+                <a href="mailto:ryusakamakijob@gmail.com">メールはこちら</a>
+            </ul>
     </div>
 
     <div class="main">
-        <h2>Unity Hubにログインをしよう！</h1>
-        <img src="../../Images/Unity/Project1/Unity1.jpeg" class="unity-img" loading="lazy">
-        <a>環境構築ができたらログインをしましょう！<br>
-            （アカウント作成がまだの方は<strong><span style="color: rgb(62, 62, 255);">[Sign
-                    in]</span></strong>の下にある<strong><span style="color: red;">[Create
-                    Account]</span></strong>でアカウントを作成しましょう！）
-        </a>
+        <h1>初心者のためのUnityの使い方完全ガイド</h1>
 
-        <h2>Unityプロジェクト作成①</h1>
+        <h2>Unity Hubにログインをしよう！</h2>
+        <img src="../../Images/Unity/Project1/Unity1.jpeg" class="unity-img" loading="lazy">
+        <p>環境構築ができたらログインをしましょう！<br>
+            （アカウント作成がまだの方は<strong><span style="color: rgb(62, 62, 255);">[Sign in]</span></strong>の下にある<strong><span
+                    style="color: red;">[Create Account]</span></strong>でアカウントを作成しましょう！）
+        </p>
+
+        <h2>Unityプロジェクト作成①</h2>
         <img src="../../Images/Unity/Project1/Unity2.jpeg" class="unity-img" loading="lazy">
+        <p>左上の<strong>[Projects]</strong>を選択して、右上の<strong>[New project]</strong>を押しましょう！</p>
 
         <h2>プロジェクト作成②</h2>
         <img src="../../Images/Unity/Project1/Unity3.jpeg" class="unity-img" loading="lazy">
+        <p><strong>[Project name]</strong>と<strong>[Location]</strong>を決めたら<strong>[Create project]</strong>で作成です！</p>
 
         <h2>ゲーム作成①</h2>
         <img src="../../Images/Unity/Project1/Unity4.jpeg" class="unity-img" loading="lazy">
-        <a>画像と同じ画面になっていればOKです！<br></a>
+        <p>画像と同じ画面になっていれば大丈夫です！<br>赤い部分で表示領域を調整できます！</p>
 
-        <h2>ゲーム作成②</h2>
+        <h2>スクリプト作成</h2>
         <img src="../../Images/Unity/Project1/Unity5.jpeg" class="unity-img" loading="lazy">
+        <p>左下の[Assets]を選択した状態で右クリックでスクリプトを作成していきます！</p>
 
-        <h2>ゲーム作成③</h2>
+        <h2>スクリプト名(ファイル)を指定</h2>
         <img src="../../Images/Unity/Project1/Unity6.jpeg" class="unity-img" loading="lazy">
+        <p>任意のファイル名で作成します！</p>
 
-        <h2>プログラミングをしよう①</h2>
+        <h2>確認！！Unityにアタッチ</h2>
         <img src="../../Images/Unity/Project1/Unity7.jpeg" class="unity-img" loading="lazy">
+        <p>作成したスクリプトをダブルクリックするとスクリプトを開くことができます！<br>画面上部を確認し、<strong>[Unityにアタッチ]</strong>となっているか確認してください！<br>※スクリプトを開く&変更するためにVisual
+            Studioが必要になります。</p>
 
-        <h2>プログラミングをしよう②</h2>
+        <h2>コンポーネント作成</h2>
         <img src="../../Images/Unity/Project1/Unity8.jpeg" class="unity-img" loading="lazy">
+        <p>ピンク枠、赤枠の部分を開いたファイルに記述してください！</p>
 
-        <h2>ゲーム作成⑤</h2>
+        <h2>ゲームオブジェクト作成</h2>
         <img src="../../Images/Unity/Project1/Unity9.jpeg" class="unity-img" loading="lazy">
+        <p>さて、先ほど作成したコンポーネント(スクリプト)をゲームオブジェクトにアタッチしましょう！<br>左側の赤枠の部分で右クリックでメニューを開きます。</p>
 
-        <h2>ゲーム作成⑥</h2>
+        <h2>コンポーネントアタッチ</h2>
         <img src="../../Images/Unity/Project1/Unity10.jpeg" class="unity-img" loading="lazy">
+        <p>続いて作成したゲームオブジェクトを選択した状態で右下の[Add Component]を押します！</p>
 
         <h2>ゲーム作成⑦</h2>
         <img src="../../Images/Unity/Project1/Unity11.jpeg" class="unity-img" loading="lazy">
@@ -120,13 +156,12 @@
         <h2>完成</h2>
         <img src="../../Images/Unity/Project1/Unity25.jpeg" class="unity-img" loading="lazy">
 
-        <h2>以上。これでひとまずゲームを作る事ができました！</br>
+        <p>以上。これでひとまずゲームを作る事ができました！</br>
             次はゲームを拡張するためのノウハウを書いていこうと思います！</br>
             それでは、お疲れ様でした！
-        </h2>
+        </p>
 
-        <a>※ご意見、ご要望などございましたら下記メールにてお願いします。<br></a>
-        <a href="mailto:ryusakamakijob@gmail.com">問い合わせメールはこちらまで</a>
+
     </div>
 
 
