@@ -14,7 +14,7 @@ body {
         text-align: center;
         color: #ffffff;
         background-color: #37daff92;
-        text-shadow: 2px 2px 0 rgba(70, 70, 70, 0.5),3px 3px 0 rgba(134, 134, 134, 0.5);
+        text-shadow: 2px 2px 0 rgba(70, 70, 70, 0.5), 3px 3px 0 rgba(134, 134, 134, 0.5);
         font-size: 46px;
     }
 
@@ -62,4 +62,12 @@ h1 {
 h2 {
     color: rgb(243, 178, 255);
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+code {
+    display: block;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background: rgb(218, 218, 218);
 }
