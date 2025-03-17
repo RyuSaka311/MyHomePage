@@ -41,15 +41,15 @@ body {
         background: linear-gradient(rgb(183, 183, 183), rgb(132, 25, 255));
 
         .title {
-            color: white;
+            color: rgb(255, 255, 255);
         }
 
         .agenda {
-            color: white;
+            color: rgb(225, 225, 225);
         }
 
         .content {
-            color: white;
+            color: rgb(255, 255, 255);
         }
     }
 }
@@ -61,7 +61,7 @@ h1 {
 
 h2 {
     color: rgb(243, 178, 255);
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3), 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
 code {

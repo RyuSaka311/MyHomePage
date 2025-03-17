@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" content="初心者でも安心！Unityでゲームを作るための基本知識と実践的なチュートリアルをお届け。">
     <link rel="stylesheet" href="../../CSS/Unity.css">
-    <title>Unity入門</title>
+    <title>Unity開発者の道</title>
 </head>
 
 <body>
@@ -125,15 +125,15 @@
 
         <h2>ゲームオブジェクトの削除</h2>
         <img src="../../Images/Unity/Project1/Unity13.jpeg" class="unity-img" loading="lazy">
-        <p>続いてゲームオブジェクトの削除をしましょう！<br>削除したいゲームオブジェクトを選択し右クリックでメニューを開き[Delete]で削除します！</p>
+        <p>続いてゲームオブジェクトの削除をしましょう！<br>削除したいゲームオブジェクトを選択し右クリックでメニューを開き<strong>[Delete]</strong>で削除します！</p>
 
         <h2>ステージの作成</h2>
         <img src="../../Images/Unity/Project1/Unity14.jpeg" class="unity-img" loading="lazy">
-        <p>続いてステージを作っていきましょう！<br>[Square]を作成して画面右の[Transform]の値を画像のように調整しましょう！</p>
+        <p>続いてステージを作っていきましょう！<br><strong>[Square]</strong>を作成して画面右の<strong>[Transform]</strong>の値を画像のように調整しましょう！</p>
 
         <h2>当たり判定の実装</h2>
         <img src="../../Images/Unity/Project1/Unity15.jpeg" class="unity-img" loading="lazy">
-        <p>続いて[Box Collider 2D]コンポーネントをアタッチしましょう！</p>
+        <p>続いて<strong>[Box Collider 2D]</strong>コンポーネントをアタッチしましょう！</p>
 
         <h2>Playerの作成</h2>
         <img src="../../Images/Unity/Project1/Unity16.jpeg" class="unity-img" loading="lazy">
@@ -142,7 +142,7 @@
 
         <h2>Playerコンポーネントの作成</h2>
         <img src="../../Images/Unity/Project1/Unity17.jpeg" class="unity-img" loading="lazy">
-        <p>Playerを選択しAdd Componentで<strong>[PlayerController]</strong>と名前をつけたスクリプトを作成します！</p>
+        <p><strong>Player</strong>を選択しAdd Componentで<strong>[PlayerController]</strong>と名前をつけたスクリプトを作成します！</p>
 
         <h2>スクリプトの編集</h2>
         <img src="../../Images/Unity/Project1/Unity18.jpeg" class="unity-img" loading="lazy">
@@ -151,37 +151,44 @@
 
         <h2>接地判定をし、動きの制御を実装しましょう！</h2>
         <img src="../../Images/Unity/Project1/Unity19.jpeg" class="unity-img" loading="lazy">
-        <p>Playerを選択した状態で右クリックを押して、<strong>[Create Enpty]</strong>でオブジェクトを生成しましょう！<br>追加したオブジェクトに<strong>[Box Collider
-                2D]</strong>をアタッチしましょう！<br>※追加したオブジェクトを「Playerの子オブジェクト」と言います。</p>
+        <p><strong>Player</strong>を選択した状態で右クリックを押して、<strong>[Create
+                Enpty]</strong>でオブジェクトを生成しましょう！<br>追加したオブジェクトに<strong>[Box Collider
+                2D]</strong>をアタッチしましょう！<br>※追加したオブジェクトを<strong>「Playerの子オブジェクト」</strong>と言います。</p>
 
         <h2>タグ設定&追加</h2>
         <img src="../../Images/Unity/Project1/Unity20.jpeg" class="unity-img" loading="lazy">
-        <p>続いて[Player]と[Floor]の当たり判定を実装していきます！<br>[Floor]を選択して右側の[Tag]のドロップダウンから[Add Tag...]を押しましょう！</p>
+        <p>続いて<strong>[Player]</strong>と<strong>[Floor]</strong>の当たり判定を実装していきます！<br><strong>[Floor]</strong>を選択して右側の<strong>[Tag]</strong>のドロップダウンから<strong>[Add
+                Tag...]</strong>を押しましょう！</p>
 
         <h2>タグ設定&追加</h2>
         <img src="../../Images/Unity/Project1/Unity21.jpeg" class="unity-img" loading="lazy">
-        <p>開いたメニューの<strong>[＋]</strong>ボタンを押して「Ground」と入力して<strong>[Save]</strong>を押しましょう！</p>
+        <p>開いたメニューの<strong>[＋]</strong>ボタンを押して<strong>「Ground」</strong>と入力して<strong>[Save]</strong>を押しましょう！</p>
 
         <h2>タグ設定&追加</h2>
         <img src="../../Images/Unity/Project1/Unity22.jpeg" class="unity-img" loading="lazy">
-        <p><strong>[Floor]</strong>を選択して右上の<strong>[Tag]</strong>から<strong>[Floor]</strong>を選択しましょう！<br>TagがFloorに変わっていればOKです！</p>
+        <p><strong>[Floor]</strong>を選択して右上の<strong>[Tag]</strong>から<strong>[Floor]</strong>を選択しましょう！<br><strong>Tag</strong>が<strong>Floor</strong>に変わっていればOKです！
+        </p>
 
         <h2>接地判定実装</h2>
         <img src="../../Images/Unity/Project1/Unity23.jpeg" class="unity-img" loading="lazy">
-        <p>Playerの子オブジェクトに<strong>[Box Collider 2D]</strong>と以下のコンポーネントを作成＆アタッチをしましょう！</p>
+        <p><strong>Player</strong>の子オブジェクトに<strong>[Box Collider 2D]</strong>と以下のコンポーネントを作成＆アタッチをしましょう！</p>
         <a href="../../Provide/Scrips/Checker.cs" target="_blank">Checker.cs</a>
 
         <h2>当たり判定の設定</h2>
         <img src="../../Images/Unity/Project1/Unity24.jpeg" class="unity-img" loading="lazy">
-        <p>追加した<strong>[Box Collider 2D]</strong>の設定を画像のように変更しましょう！<br>※画面上部のタブを<strong>[Scene]</strong>に切り替え<strong>[Edit Collider]</strong>の右側のボタンを押すと当たり判定が確認できます。</p>
+        <p>追加した<strong>[Box Collider
+                2D]</strong>の設定を画像のように変更しましょう！<br>※画面上部のタブを<strong>[Scene]</strong>に切り替え<strong>[Edit
+                Collider]</strong>の右側のボタンを押すと当たり判定が確認できます。</p>
 
         <h2>仕上げ</h2>
         <img src="../../Images/Unity/Project1/Unity25.jpeg" class="unity-img" loading="lazy">
-        <p></p>
+        <p>最後にゴールとなるオブジェクトを配置したら完了です！<br><strong>[Circle Collider 2D]</strong>と以下のコンポーネントを作成＆アタッチしましょう！</p>
+        <a href="../../Provide/Scrips/Goal.cs">Goal.cs</a>
 
-        <p>以上。これでひとまずゲームを作る事ができました！</br>
-            次はゲームを拡張するためのノウハウを書いていこうと思います！</br>
-            それでは、お疲れ様でした！
+        <h2>お疲れ様でした！</h2>
+        <p>これでひとまず簡単なゲームを作る事ができました！</br>
+            次はゲームを拡張するための記事を書いていこうと思います！</br>
+            リクエストなどありましたら、お問い合わせからお願いします！
         </p>
     </div>
 </body>
